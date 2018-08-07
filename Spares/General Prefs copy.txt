@@ -1,0 +1,102 @@
+;; General
+authorPhone==07825_994445
+authorEmail==dhounam@gmail.com
+site==Economist
+copyrightString==Copyright (c) yyyy The Economist Newspaper Ltd
+publicationDate==7
+importDated==True
+exportDated==True
+oneLine==10
+sourceSymbols==@|¾|'|ó|—|_|æ|«|Ç|ˆ
+targetSymbols==,| |8217|164|164|š| |´|´| 
+wrapSqueeze==97
+isMM==False
+overprintText==True
+sectionList==AM|AS|BB|BK|BR|CN|EB|EU|FB|FN|GD|IN|IR|LD|LT|MA|MC|RV|SR|ST|US|WB|WO|WW|XM
+;; Publication threshold currently set to midnight Fri/Sat
+publicationThreshold==7
+draftSave==False
+sectionInFileName==True
+;; Background
+chartOrigin==100|600
+gutterWidth==15
+dividerWidth==3
+footnoteMoves==True
+detailsOrigin==350|150
+doubleScaleExtra==10
+;; Scales
+barScaleTop==True
+scatterScaleLeft==True
+leftScaleAlignLeft==True
+rightScaleAlignLeft==False
+idealVTicks==6
+vScaleLabelAlign==1.75
+hScaleLabelAlign==0
+barLabelMargin==4
+brokenScaleMargin==10
+showColBroken==False
+globalPlusMinus==False
+yearsBetween==False
+outTickMargin==2
+inTickMargin==5
+inTickOtherMargin==0
+vScaleAcross==True
+vScaleCommas==True
+showVTopLabel==True
+tickStart4==0
+tickEnd4==-3.15
+tickStart3==0
+tickEnd3==-2.25
+tickStart2==0
+tickEnd2==-1.75
+tickStart1==0
+tickEnd1==-1
+barHScaleAcross==True
+scatterHScaleAcross==False
+scaleLeft==False
+scaleTop==False
+brokenScaleSymbolHeight==4
+brokenScaleSymbolWidth==8
+showZeroBroken==False
+oneLineDateScale==False
+;; Traces
+cbDefault==10
+cbGap==5
+barDepths==8|14|18|20
+pieDonutPercent==50
+barDepthExtra==60
+indexWidth==6
+indexCMYK==0|0|0|100
+doubleScaleLeftTextCMYK==85|55|20|0
+doubleScaleLeftTraceCMYK==85|55|20|0
+doubleScaleRightTextCMYK==70|0|45|0
+doubleScaleRightTraceCMYK==70|0|45|0
+oneTraceNoGap==False
+;; Keys
+keyFontName==OfficinaSanITC-Book
+keyFontSize==7
+keyFontLeading==7
+keyFontFollowsSeries==True
+keyFontCMYK==0|0|0|100
+keyLabGap==2
+keyBoxSize==5|5
+keyLineLength==10
+keyLinkStrokeWidth==0.3
+keyLinkStrokeCMYK==0|0|0|100
+pieItalicValues==True
+pieBoldValues==False
+;; Blobs
+blobFontName==OfficinaSanITC-Medium
+blobFontSize==7.5
+blobFontCMYK==0|0|0|0
+blobColMargin==
+blobBarMargin==2
+blobHugCols==2
+blobHugBars==
+blobBoxMargin==2
+blobBoxFillFlag==True
+blobBoxFillCMYK==30|0|0|50
+blobBoxStrokeFlag==False
+blobBoxStrokeCMYK==30|0|0|50
+blobBoxStrokeWidth==0
+

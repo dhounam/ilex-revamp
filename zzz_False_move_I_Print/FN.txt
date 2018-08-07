@@ -1,0 +1,12 @@
+;; Excel properties
+;; These default properties must exist in every section lookup
+;; (Excel refers to them)
+width==160
+height==165
+columns==160|332|504|||||
+subSizeOptions==Normal|160|165|0|0|12|Free Exchange|243|165|0|0|12
+innerBoxLeftMargin==6
+onePanelVisible==False
+absoluteScaleTop==False
+;; Excel properties end
+;; Properties below here overwrite settings in GPs...

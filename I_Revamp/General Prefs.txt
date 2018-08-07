@@ -1,0 +1,529 @@
+;; GENERAL *****************
+authorPhone==07825_994445
+authorEmail==dhounam@gmail.com
+site==Economist
+copyrightString==Copyright (c) yyyy The Economist Newspaper Ltd
+publicationDate==7
+importDated==True
+exportDated==True
+oneLine==10
+sourceSymbols==@|�|'|�|�|_|�|�|�|�
+targetSymbols==,|�|8217|164|164|�|�|�|�|�
+wrapSqueeze==97
+isMM==False
+overprintText==True
+overprintStroke==True
+sectionList==AM|AS|BK|BQ|BR|CN|DA|EB|ES|EU|FB|FN|GD|IN|IR|LA|LD|MA|MC|SR|ST|TQ|US|WB|WO|WW|XM
+;; Publication threshold currently set to midnight Fri/Sat
+publicationThreshold==7
+draftSave==False
+sectionInFileName==True
+;; aiTemplateFile==revamp_template.ai
+aiTemplateFile==revamp_template_2017_01.ai
+numberChart==False
+showDetails==True
+;; Next is never over-ridden, but necessary...
+drawLeaderStyle==False
+;;
+;; General background
+chartOrigin==100|600
+detailsOrigin==350|150
+footnoteMoves==True
+sourceFootnoteGap==12
+doubleScaleExtra==10
+;;
+;; BACKGROUND SHAPES *****************
+;; Background Box 1 -- main background
+bb1FillFlag==True
+bb1FillCMYK==9|0|0|6
+bb1StrokeAll==False
+bb1StrokeAllCMYK==0|0|0|0
+bb1StrokeAllWidth==0
+innerBoxBottomMargin==5
+innerBoxRightMargin==6
+bb1StrokeAllDash==0|0
+bb1StrokeTopCMYK==0|0|0|0
+bb1StrokeTopWidth==0
+bb1StrokeTopDash==0|0
+bb1StrokeBottomCMYK==0|0|0|0
+bb1StrokeBottomWidth==0
+bb1StrokeBottomDash==0|0
+bb1StrokeTop==False
+bb1StrokeBottom==False
+bb1StrokeAllEnd==
+bb1StrokeTopEnd==
+bb1StrokeBottomEnd==
+;;
+;; Background box 2 -- red flash
+bb2Flag==True
+bb2OriginX==6
+bb2OriginY==0
+bb2Height==5
+bb2Width==15
+bb2FillFlag==True
+bb2FillCMYK==0|100|100|0
+bb2StrokeFlag==False
+bb2StrokeCMYK==0|0|0|0
+bb2StrokeWidth==0
+bb2Hidden==false
+;;
+;; Background box 3 -- alongside flash
+bb3Flag==true
+bb3OriginX==6
+bb3OriginY==0
+bb3Height==0.5
+bb3Width==100%-12
+bb3FillFlag==True
+bb3FillCMYK==0|100|100|0
+bb3StrokeFlag==False
+bb3StrokeCMYK==0|0|0|0
+bb3StrokeWidth==0
+bb3Hidden==true
+;; Panels and dividers
+gutterWidth==24
+gutterHeight==15
+panelSpaceAbove==15
+panelFillFlag==False
+panelFillCMYK==8|0|0|15
+panelStrokeFlag==False
+panelStrokeCMYK==0|0|0|0
+panelStrokeWidth==0
+;; I'm leaving divider prefs, although this seems to have been rejected
+dividerExists==False
+dividerWidth==3
+dividerFillFlag==True
+dividerFillCMYK==8|0|0|15
+;; New: September 2016: panels have a flash at top left!!
+panelFlash==True
+panelFlashX==0
+;; Inconsistent: move flash up, so bottom = IB.top...
+panelFlashY==0.5
+panelFlashWidth==10
+panelFlashHeight==0.5
+panelFlashFillCMYK==0|0|0|100
+;; On panels, see also Subtitle, below...
+;;
+;; BACKGROUND STRINGS *****************
+fineTuneStringOrigins==True
+;; Title
+titleAlign==Left
+titleOriginX==6
+titleOriginY==15
+titleFontName==EconSansBol
+titleFontSize==8.5
+titleFontLeading==10
+titleFontCMYK==0|0|0|100
+titleHScale==100
+;; Subtitle
+subtitleAlign==Left
+subtitleOriginXPanel==0
+subtitleOriginYPanel==8
+subtitleFontName==EconSansCndReg
+;; subtitlePanelFontName==EconSansCndMed
+subtitleFontSize==7.5
+subtitleFontLeading==9
+subtitleFontCMYK==0|0|0|100
+subtitleOriginXNoPanel==0
+subtitleOriginYNoPanel==10
+subtitleHScale==100
+doubleScaleDummyBelowSubtitle==15
+;; Next: desired gap is 15pts, but there's a rogue 5 creeping in, so 10 seems to work...
+gapBetweenOverallSubtitleAndPanel==10
+;; Panel header
+panelHeaderFontName==EconSansCndMed
+panelHeaderFontSize==7.5
+panelHeaderFontLeading==9
+panelHeaderFontCMYK==0|0|0|100
+;; Source
+sourceAlign==Left
+sourceOriginX==6
+sourceOriginY==6
+sourceFontName==EconSansCndLig
+sourceFontSize==6
+sourceFontLeading==7
+sourceFontCMYK==0|0|0|75
+showSource==True
+sourceSpaceAbove==10
+sourceHScale==100
+;; Footnote
+footnoteAlign==Right
+footnoteOriginX==6
+footnoteOriginY==6
+footnoteFontName==EconSansCndLig
+footnoteFontSize==6
+footnoteFontLeading==7
+footnoteFontCMYK==0|0|0|75
+footnoteHScale==100
+;;
+;; SCALES *****************
+;; General
+barScaleTop==True
+scatterScaleLeft==False
+scatterVScaleLabelAtTop==True
+leftScaleAlignLeft==True
+rightScaleAlignLeft==False
+idealVTicks==6
+vScaleLabelAlign==1.5
+hScaleLabelAlign==0
+barLabelMargin==4
+brokenScaleMargin==10
+showColBroken==False
+globalPlusMinus==False
+yearsBetween==True
+outTickMargin==0
+inTickMargin==5
+inTickOtherMargin==0
+vScaleAcross==True
+vScaleCommas==True
+showVTopLabel==True
+tickStart4==0
+tickEnd4==-5
+tickStart3==0
+tickEnd3==-3
+tickStart2==0
+tickEnd2==-2
+tickStart1==0
+tickEnd1==-2
+barHScaleAcross==True
+scatterHScaleAcross==True
+scatterkeyLHScaleAcross==False
+scaleLeft==False
+scaleTop==False
+brokenScaleSymbolHeight==3
+brokenScaleSymbolWidth==6
+showZeroBroken==False
+oneLineDateScale==False
+forceColumnTicks==False
+;;
+;; General scale label
+catLabelFontName==EconSansCndReg
+catLabelFontSize==7
+catLabelFontLeading==9
+catLabelFontCMYK==0|0|0|100
+catLabelAlign==Centre
+catHLabelAlignOnChart==True
+catLabelHScale==100
+catLabelSpaceAbove==10
+;;
+;; Vertical scales
+vScaleFontName==EconSansCndLig
+vScaleFontSize==7
+vScaleFontCMYK==0|0|0|100
+vScaleHScale==100
+scaleSpaceAbove==15
+scaleSpaceAboveInPanel==10
+vScaleDefaultStrokeWidth==0.5
+vScaleDefaultCMYK==10|0|0|25
+vScaleIndexStrokeWidth==0.4
+vScaleIndexCMYK==12|80|60|0
+vScaleBaseStrokeWidth==0.4
+vScaleBaseCMYK==0|0|0|100
+vScaleLength==5
+absoluteBaseline==False
+plusMinusSmallerBy==1
+;;
+;; Horizontal scales
+hScaleFontName==EconSansCndLig
+hScaleMainFontSize==7
+hScaleSecondaryFontSize==7
+hScaleFontCMYK==0|0|0|100
+hScaleHScale==100
+hScaleTickStrokeWidth==0.4
+hScaleTickCMYK==0|0|0|100
+hScaleAlign==Centre
+hScaleMainSpaceAbove==10
+hScaleInternalSpaceAbove==10
+revampBarAtTopTweak==2
+;;
+;; TRACES *****************
+;; General trace properties
+cbDefault==10
+cbGap==5
+cbWideGap==10
+barDepths==8|14|18|20
+pieDonutPercent==50
+barDepthExtra==60
+indexWidth==5
+indexCMYK==0|0|0|100
+doubleScaleHeaderFontName==EconSansCndReg
+doubleScaleHeaderFontSize==7.5
+doubleScaleHeaderLeading==9
+doubleScaleLeftTextCMYK==82|0|18|8
+doubleScaleLeftTrace1CMYK==67|0|18|0
+doubleScaleLeftTrace2CMYK==85|0|30|20
+doubleScaleRightTextCMYK==0|75|35|45
+doubleScaleRightTrace1CMYK==0|75|35|45
+doubleScaleRightTrace2CMYK==27|42|25|10
+oneTraceNoGap==False
+;;
+;; Line traces general
+accumSetFillCMYK==0|0|0|0
+accumSetTopStrokeCMYK==0|0|0|100
+accumKeyByLines==False
+accumSetTopStrokeWidth==.5
+accumSetOtherStrokeWidth==.5
+accumSetOtherStrokeCMYK==0|0|0|0
+tLineStyle==False
+tLineMiter==0
+tLineMiterLimit==1
+nonAccumLineFill==False
+nonAccumLineFillCMYK==0|0|0|0
+;;
+;; Column/bar traces general
+tCBStyle==False
+hasBarStroke==False
+hasColStroke==False
+brokenFontCMYK==0|0|0|0
+barLabelsAlignLeft==True
+oneBarColUsesStyleTwo==False
+tCBThermoStrokeFlag==False
+thermoCrossLength==8
+thermoCrossWidth==2
+;; Scatters general
+tScatterStyle==False
+tScatterFillFlag==True
+tScatterStrokeFlag==False
+tScatterSize==5
+tScatterShape==0
+;; Pies general
+pieProportion==0.75
+pieStrokeFlag==False
+pieStrokeCMYK==0|0|0|0
+pieStrokeWidth==0.3
+;; Next is never used
+tPieStyle==False
+pieDonutFillFlag==False
+pieDonutFillCMYK==5|0|0|9
+;;
+;; Numbered trace attributes
+;;    Line trace attributes
+tLine1StrokeCMYK==90|50|15|5
+tLine2StrokeCMYK==67|0|18|0
+tLine3StrokeCMYK==12|30|70|0
+tLine4StrokeCMYK==0|75|35|45
+tLine5StrokeCMYK==85|0|30|20
+tLine6StrokeCMYK==27|42|25|10
+tLine7StrokeCMYK==90|50|15|5
+tLine8StrokeCMYK==67|0|18|0
+tLine9StrokeCMYK==12|30|70|0
+tLine10StrokeCMYK==0|75|35|45
+tLine1FillCMYK==90|50|15|5
+tLine2FillCMYK==67|0|18|0
+tLine3FillCMYK==12|30|70|0
+tLine4FillCMYK==85|0|30|20
+tLine5FillCMYK==53|0|26|0
+tLine6FillCMYK==100|0|0|65
+tLine7FillCMYK==90|50|15|5
+tLine8FillCMYK==67|0|18|0
+tLine9FillCMYK==12|30|70|0
+tLine10FillCMYK==85|0|30|20
+tLine1StrokeWidth==1.5
+tLine2StrokeWidth==1.5
+tLine3StrokeWidth==1.5
+tLine4StrokeWidth==1.5
+tLine5StrokeWidth==1.5
+tLine6StrokeWidth==1.5
+tLine7StrokeWidth==1.5
+tLine8StrokeWidth==1.5
+tLine9StrokeWidth==1.5
+tLine10StrokeWidth==1.5
+tLine1End==0
+tLine2End==0
+tLine3End==0
+tLine4End==0
+tLine5End==0
+tLine6End==0
+tLine7End==0
+tLine8End==0
+tLine9End==0
+tLine10End==0
+;; 		Thermometers (bar and column)
+tCBThermo1FillCMYK==67|0|18|0
+tCBThermo2FillCMYK==0|75|35|45
+tCBThermo3FillCMYK==12|30|70|0
+tCBThermo4FillCMYK==90|50|15|5
+tCBThermo5FillCMYK==85|0|30|20
+tCBThermo6FillCMYK==27|42|25|10
+tCBThermo7FillCMYK==67|0|18|0
+tCBThermo8FillCMYK==0|75|35|45
+tCBThermo9FillCMYK==12|30|70|0
+tCBThermo10FillCMYK==90|50|15|5
+tCBThermo1StrokeCMYK==0|0|0|0
+tCBThermo2StrokeCMYK==0|0|0|0
+tCBThermo3StrokeCMYK==0|0|0|0
+tCBThermo4StrokeCMYK==0|0|0|0
+tCBThermo5StrokeCMYK==0|0|0|0
+tCBThermo6StrokeCMYK==0|0|0|0
+tCBThermo7StrokeCMYK==0|0|0|0
+tCBThermo8StrokeCMYK==0|0|0|0
+tCBThermo9StrokeCMYK==0|0|0|0
+tCBThermo10StrokeCMYK==0|0|0|0
+tCBThermo1StrokeWidth==0
+tCBThermo2StrokeWidth==0
+tCBThermo3StrokeWidth==0
+tCBThermo4StrokeWidth==0
+tCBThermo5StrokeWidth==0
+tCBThermo6StrokeWidth==0
+tCBThermo7StrokeWidth==0
+tCBThermo8StrokeWidth==0
+tCBThermo9StrokeWidth==0
+tCBThermo10StrokeWidth==0
+;;    Column/bar trace attributes
+tCBUnstacked1FillCMYK==90|50|15|5
+tCBUnstacked2FillCMYK==67|0|18|0
+tCBUnstacked3FillCMYK==85|0|30|20
+tCBUnstacked4FillCMYK==12|30|70|0
+tCBUnstacked5FillCMYK==0|75|35|45
+tCBUnstacked6FillCMYK==27|42|25|10
+tCBUnstacked7FillCMYK==90|50|15|5
+tCBUnstacked8FillCMYK==67|0|18|0
+tCBUnstacked9FillCMYK==85|0|30|20
+tCBUnstacked10FillCMYK==12|30|70|0
+tCBStacked1FillCMYK==90|50|15|5
+tCBStacked2FillCMYK==67|0|18|0
+tCBStacked3FillCMYK==12|30|70|0
+tCBStacked4FillCMYK==85|0|30|20
+tCBStacked5FillCMYK==53|0|26|0
+tCBStacked6FillCMYK==100|0|0|65
+tCBStacked7FillCMYK==90|50|15|5
+tCBStacked8FillCMYK==67|0|18|0
+tCBStacked9FillCMYK==12|30|70|0
+tCBStacked10FillCMYK==85|0|30|20
+tCB1StrokeWidth==0
+tCB2StrokeWidth==0
+tCB3StrokeWidth==0
+tCB4StrokeWidth==0
+tCB5StrokeWidth==0
+tCB6StrokeWidth==0
+tCB7StrokeWidth==0
+tCB8StrokeWidth==0
+tCB9StrokeWidth==0
+tCB10StrokeWidth==0
+tCB1StrokeCMYK==0|0|0|0
+tCB2StrokeCMYK==0|0|0|0
+tCB3StrokeCMYK==0|0|0|0
+tCB4StrokeCMYK==0|0|0|0
+tCB5StrokeCMYK==0|0|0|0
+tCB6StrokeCMYK==0|0|0|0
+tCB7StrokeCMYK==0|0|0|0
+tCB8StrokeCMYK==0|0|0|0
+tCB9StrokeCMYK==0|0|0|0
+tCB10StrokeCMYK==0|0|0|0
+;;    Scatter trace attributes
+tScatter1FillCMYK==67|0|18|0
+tScatter2FillCMYK==0|75|35|45
+tScatter3FillCMYK==12|30|70|0
+tScatter4FillCMYK==90|50|15|5
+tScatter5FillCMYK==85|0|30|20
+tScatter6FillCMYK==27|42|25|10
+tScatter7FillCMYK==67|0|18|0
+tScatter8FillCMYK==0|75|35|45
+tScatter9FillCMYK==12|30|70|0
+tScatter10FillCMYK==90|50|15|5
+tScatter1StrokeWidth==0
+tScatter2StrokeWidth==0
+tScatter3StrokeWidth==0
+tScatter4StrokeWidth==0
+tScatter5StrokeWidth==0
+tScatter6StrokeWidth==0
+tScatter7StrokeWidth==0
+tScatter8StrokeWidth==0
+tScatter9StrokeWidth==0
+tScatter10StrokeWidth==0
+tScatter1StrokeCMYK==0|0|0|100
+tScatter2StrokeCMYK==0|0|0|100
+tScatter3StrokeCMYK==0|0|0|100
+tScatter4StrokeCMYK==0|0|0|100
+tScatter5StrokeCMYK==0|0|0|100
+tScatter6StrokeCMYK==0|0|0|100
+tScatter7StrokeCMYK==0|0|0|100
+tScatter8StrokeCMYK==0|0|0|100
+tScatter9StrokeCMYK==0|0|0|100
+tScatter10StrokeCMYK==0|0|0|100
+;;    Pie trace attributes
+wedge1FillCMYK==90|50|15|5
+wedge2FillCMYK==67|0|18|0
+wedge3FillCMYK==12|30|70|0
+wedge4FillCMYK==85|0|30|20
+wedge5FillCMYK==0|75|35|45
+wedge6FillCMYK==53|0|26|0
+wedge7FillCMYK==90|50|15|5
+wedge8FillCMYK==67|0|18|0
+wedge9FillCMYK==12|30|70|0
+wedge10FillCMYK==85|0|30|20
+;;
+;; BLOBS, KEYS AND NUMBERBOXES *****************
+;; Blobs
+blobFontName==EconSansCndMed
+blobHeaderFontSize==7.5
+blobHeaderFontLeading==9.5
+;; Force blob header box height
+blobHeaderBoxHeight==12
+blobFontSize==7
+blobFontCMYK==0|0|0|0
+blobColMargin==
+blobBarMargin==2
+blobHugCols==2
+blobHugBars==
+;; Margin changed from single value to array: w,h resp'y...
+;; but height is now (REVAMP) overwritten by blobHeaderBoxHeight, above
+blobBoxMargin==3|2
+blobBoxFillFlag==True
+blobBoxFillCMYK==30|0|0|50
+blobBoxStrokeFlag==False
+blobBoxStrokeCMYK==30|0|0|50
+blobBoxStrokeWidth==0
+;;
+;; Keys
+keyFontName==EconSansCndLig
+keyFontSize==7.5
+keyFontLeading==8
+keyFontFollowsSeries==False
+keyFontCMYK==0|0|0|100
+keyLabGap==2
+keyBoxSize==5|5
+;; Additional property for pie chart keys:
+keyBoxSizePie==3|9
+keyBoxSizeThermoCross==3|6
+keyLineLength==10
+keyLinkStrokeWidth==0.5
+keyLinkStrokeCMYK==15|0|0|25
+pieItalicValues==False
+pieBoldValues==False
+;; New flag for REVAMP pie values in Light/75K
+pieLightValues==True
+;; More special pie properties, for the appended value
+pieValuesFont==EconSansCndLig
+pieValuesFontCMYK==0|0|0|75
+;;
+;; Number boxes
+numberBoxCMYK==22.5|0|0|15
+numberBoxOffsetTop==6
+numberBoxOffsetRight==6
+numberBoxFontName==EconSansCndBol
+numberBoxFontSize== 7.5
+;; TABLES *****************
+tHeadFontName==EconSansCndMed
+tHeadFontSize==7
+tHeadFontLeading==8
+tHeadFontCMYK==0|0|0|100
+tHeadHScale==100
+tHeadSpaceAbove==15
+tRuleAWidth==0.4
+tRuleACMYK==0|0|0|100
+tRuleACap==0
+tRuleADash==0|0
+;; Just a thought (not implemented, but could exist...):
+;; tContentColAFontName==EconSansCndReg
+tContentFontName==EconSansCndLig
+tContentFontSize==7
+tContentFontLeading==11
+tContentHScale==100
+tContentFontCMYK==0|0|0|100
+tRuleBWidth==0.5
+tRuleBDash==0|0
+tRuleBCMYK==15|0|0|25
+tRuleBCap==2
+tRuleBelow==3.25
+tAlternateTints==False
+tAlternateTintCMYK==0|0|0|0

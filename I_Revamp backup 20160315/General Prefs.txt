@@ -1,0 +1,121 @@
+;; General
+authorPhone==07825_994445
+authorEmail==dhounam@gmail.com
+site==Economist
+copyrightString==Copyright (c) yyyy The Economist Newspaper Ltd
+publicationDate==7
+importDated==True
+exportDated==True
+oneLine==10
+sourceSymbols==@|¾|'|ó|—|_|æ|«|Ç|ˆ
+targetSymbols==,| |8217|164|164|š| |´|´| 
+wrapSqueeze==97
+isMM==False
+overprintText==True
+sectionList==AM|AS|BB|BK|BR|CN|DA|EB|EU|FB|FN|GD|IN|IR|LD|LT|MA|MC|RV|SR|ST|US|WB|WO|WW|XM
+;; Publication threshold currently set to midnight Fri/Sat
+publicationThreshold==7
+draftSave==False
+sectionInFileName==True
+;; Background
+chartOrigin==100|600
+gutterWidth==15
+dividerWidth==3
+footnoteMoves==True
+detailsOrigin==350|150
+doubleScaleExtra==10
+;; Scales
+barScaleTop==True
+scatterScaleLeft==False
+scatterVScaleLabelAtTop==True
+leftScaleAlignLeft==True
+rightScaleAlignLeft==False
+idealVTicks==6
+vScaleLabelAlign==1
+hScaleLabelAlign==0
+barLabelMargin==4
+brokenScaleMargin==10
+showColBroken==False
+globalPlusMinus==False
+yearsBetween==True
+outTickMargin==0
+inTickMargin==5
+inTickOtherMargin==0
+vScaleAcross==True
+vScaleCommas==True
+showVTopLabel==True
+tickStart4==0
+tickEnd4==-3
+tickStart3==0
+tickEnd3==-2
+tickStart2==0
+tickEnd2==-2
+tickStart1==0
+tickEnd1==-2
+barHScaleAcross==True
+scatterkeyLHScaleAcross==False
+scaleLeft==False
+scaleTop==False
+brokenScaleSymbolHeight==3
+brokenScaleSymbolWidth==6
+showZeroBroken==False
+oneLineDateScale==False
+forceColumnTicks==False
+;; Traces
+cbDefault==10
+cbGap==5
+cbWideGap==20
+barDepths==8|14|18|20
+pieDonutPercent==50
+barDepthExtra==60
+indexWidth==6
+indexCMYK==0|0|0|100
+doubleScaleHeaderFontName==EconSansCnd-Regular
+doubleScaleHeaderFontSize==7.5
+doubleScaleHeaderLeading==9
+doubleScaleLeftTextCMYK==82|0|18|8
+doubleScaleLeftTrace1CMYK==67|0|18|0
+doubleScaleLeftTrace2CMYK==85|0|30|20
+doubleScaleRightTextCMYK==0|75|35|45
+doubleScaleRightTrace1CMYK==0|75|35|45
+doubleScaleRightTrace2CMYK==27|42|25|10
+oneTraceNoGap==False
+;; Keys
+keyFontName==EconSansCnd-Regular
+keyFontSize==7.5
+keyFontLeading==9
+keyFontFollowsSeries==False
+keyFontCMYK==0|0|0|100
+keyLabGap==2
+keyBoxSize==5|5
+;; Additional property for pie chart keys:
+keyBoxSizePie==3|9
+keyBoxSizeThermoCross==3|6
+keyLineLength==10
+keyLinkStrokeWidth==0.5
+keyLinkStrokeCMYK==15|0|0|25
+pieItalicValues==False
+pieBoldValues==False
+;; New flag for REVAMP pie values in Light/75K
+pieLightValues==True
+;; More special pie properties, for the appended value
+pieValuesFont==EconSansCnd-Light
+pieValuesFontCMYK==0|0|0|75
+;; Blobs
+blobFontName==EconSansCnd-Medium
+blobHeaderFontSize==7.5
+blobHeaderFontLeading==9
+blobFontSize==7
+blobFontCMYK==0|0|0|0
+blobColMargin==
+blobBarMargin==2
+blobHugCols==2
+blobHugBars==
+;; Margin changed from single value to array: w,h resp'y...
+blobBoxMargin==3|2
+blobBoxFillFlag==True
+blobBoxFillCMYK==30|0|0|50
+blobBoxStrokeFlag==False
+blobBoxStrokeCMYK==30|0|0|50
+blobBoxStrokeWidth==0
+

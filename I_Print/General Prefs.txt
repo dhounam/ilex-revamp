@@ -1,0 +1,123 @@
+;; General
+authorPhone==07825_994445
+authorEmail==dhounam@gmail.com
+site==Economist
+copyrightString==Copyright (c) yyyy The Economist Newspaper Ltd
+publicationDate==7
+importDated==True
+exportDated==True
+oneLine==10
+sourceSymbols==@|�|'|�|�|_|�|�|�|�
+targetSymbols==,|�|8217|164|164|�|�|�|�|�
+wrapSqueeze==97
+isMM==False
+overprintText==True
+overprintStroke==True
+sectionList==AM|AS|BB|BK|BR|CN|EB|EU|FB|FN|GD|IN|IR|LD|LT|MA|MC|SR|ST|US|WB|WO|WW|XM
+drawLeaderStyle==False
+;; Publication threshold currently set to midnight Fri/Sat
+publicationThreshold==7
+draftSave==False
+sectionInFileName==True
+;; Background
+chartOrigin==100|600
+gutterWidth==10
+gutterHeight==10
+footnoteMoves==True
+sourceFootnoteGap==6
+detailsOrigin==350|150
+doubleScaleExtra==10
+;; Scales
+barScaleTop==True
+scatterScaleLeft==True
+leftScaleAlignLeft==False
+rightScaleAlignLeft==True
+idealVTicks==6
+vScaleLabelAlign==0
+hScaleLabelAlign==0
+scaleSpaceAboveInPanel==10
+barLabelMargin==4
+brokenScaleMargin==10
+showColBroken==False
+globalPlusMinus==True
+yearsBetween==False
+outTickMargin==2
+inTickMargin==5
+inTickOtherMargin==0
+vScaleAcross==True
+vScaleCommas==True
+showVTopLabel==True
+tickStart4==0
+tickEnd4==3.15
+tickStart3==0
+tickEnd3==2.25
+tickStart2==0
+tickEnd2==1.75
+tickStart1==0
+tickEnd1==1
+barHScaleAcross==True
+scatterHScaleAcross==False
+scaleLeft==False
+scaleTop==False
+brokenScaleSymbolHeight==4
+brokenScaleSymbolWidth==4
+showZeroBroken==False
+oneLineDateScale==False
+;; Traces
+cbDefault==10
+cbGap==5
+barDepths==8|14|18|20
+pieDonutPercent==50
+barDepthExtra==60
+indexWidth==6
+indexCMYK==0|0|0|100
+doubleScaleLeftCMYK==80|0|0|70
+doubleScaleRightCMYK==0|80|80|60
+;; Double scales have separate text/trace colours
+;; Prev 2 lines delete once this is working (Feb 2013)
+doubleScaleLeftTextCMYK==100|0|0|20
+doubleScaleLeftTrace1CMYK==90|0|0|10
+doubleScaleLeftTrace2CMYK==90|0|0|10
+doubleScaleRightTextCMYK==0|80|80|60
+doubleScaleRightTrace1CMYK==0|80|80|60
+doubleScaleRightTrace2CMYK==0|80|80|60
+oneTraceNoGap==False
+;; Keys
+keyFontName==OfficinaSanITC-Book
+keyFontSize==7
+keyFontLeading==7
+keyFontCMYK==0|0|0|100
+keyLabGap==2
+keyBoxSize==10|5
+;; Additional property for pie chart keys:
+keyBoxSizePie==3|9
+keyLineLength==10
+keyLinkStrokeWidth==0.3
+keyLinkStrokeCMYK==0|0|0|100
+pieItalicValues==True
+pieBoldValues==False
+;; Blobs
+blobFontName==OfficinaSanITC-Medium
+blobFontSize==6
+;; 3 for consistency with Revamp:
+blobHeaderBoxHeight==12
+blobHeaderFontSize==6
+blobHeaderFontLeading==7
+blobFontCMYK==0|0|0|100
+blobColMargin==
+blobBarMargin==2
+blobHugCols==2
+blobHugBars==
+blobBoxMargin==2|2
+blobBoxFillFlag==True
+blobBoxFillCMYK==0|0|0|0
+blobBoxStrokeFlag==True
+blobBoxStrokeCMYK==80|0|0|70
+blobBoxStrokeWidth==0.3
+;; For revamp:
+doubleScaleDummyBelowSubtitle==15
+gapBetweenOverallSubtitleAndPanel==11
+panelHeaderFontName==OfficinaSanITC-Medium
+panelHeaderFontSize==7
+panelHeaderFontLeading==8
+panelHeaderFontCMYK==0|0|0|100

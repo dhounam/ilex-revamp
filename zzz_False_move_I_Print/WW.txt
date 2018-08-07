@@ -1,0 +1,37 @@
+;; Excel properties
+;; These default properties must exist in every section lookup
+;; (Excel refers to them)
+height==115
+width==117
+columns==117|||||||
+subSizeOptions==False
+innerBoxLeftMargin==6
+onePanelVisible==False
+absoluteScaleTop==False
+;; Excel properties end
+;; Properties below here overwrite settings in GPs...
+;; Background box 2 -- red flash is smaller
+bb2Height==4
+bb2Width==12
+;; Title and other font changes
+titleOriginY==12
+titleFontSize==7.5
+titleFontLeading==9
+;; Subtitle
+subtitleOriginYNoPanel==8
+subtitleFontSize==6.5
+subtitleFontLeading==7.5
+;; Source
+sourceFontSize==6
+sourceFontLeading==7
+;; Footnote
+footnoteFontSize==6
+footnoteFontLeading==7
+;; Horizontal scale
+hScaleMainFontSize==6
+hScaleMainSpaceAbove==10
+;; Vertical scale
+vScaleFontSize==6
+scaleSpaceAbove==12
+
+

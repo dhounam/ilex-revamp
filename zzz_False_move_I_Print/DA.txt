@@ -1,0 +1,28 @@
+;; Excel properties
+;; These default properties must exist in every section lookup
+;; (Excel refers to them)
+height==165
+width==160
+columns==160|||||||
+subSizeOptions==False
+;; No left/right margins
+innerBoxLeftMargin==0
+innerBoxRightMargin==0
+onePanelVisible==False
+absoluteScaleTop==False
+;; Excel properties end
+;; Minor changes from default style
+;; White background box
+bb1FillCMYK==0|0|0|0
+;; Red flash
+bb2OriginX==0
+;; Extra flash
+bb3Flag==True
+bb3Hidden==false
+bb3Width==160
+bb3OriginX==0
+;;bb3_Width==148
+;; String origins
+titleOriginX==0
+sourceOriginX==0
+footnoteOriginX==0
