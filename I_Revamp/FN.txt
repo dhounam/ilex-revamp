@@ -4,7 +4,7 @@
 height==165
 width==160
 columns==160|332|504|||||
-subSizeOptions==Normal|160|155|0|0|6|Free Exchange|243|165|0|0|6|Buttonwood|160|155|0|0|0
+subSizeOptions==Normal|160|165|0|0|6|Free Exchange|243|165|0|0|6|Buttonwood|160|155|0|0|0
 innerBoxLeftMargin==6
 onePanelVisible==False
 absoluteScaleTop==False

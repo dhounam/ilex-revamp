@@ -81,6 +81,7 @@ bb3StrokeWidth==0
 bb3Hidden==true
 ;; Panels and dividers
 gutterWidth==24
+gutterWidthOneCol==12
 gutterHeight==15
 panelSpaceAbove==15
 panelFillFlag==False
@@ -104,7 +105,7 @@ panelFlashFillCMYK==0|0|0|100
 ;; On panels, see also Subtitle, below...
 ;;
 ;; BACKGROUND STRINGS *****************
-fineTuneStringOrigins==True
+fineTuneStringOrigins==False
 ;; Title
 titleAlign==Left
 titleOriginX==6
@@ -225,7 +226,7 @@ plusMinusSmallerBy==1
 ;; Horizontal scales
 hScaleFontName==EconSansCndLig
 hScaleMainFontSize==7
-hScaleSecondaryFontSize==7
+hScaleSecondaryFontSize==6
 hScaleFontCMYK==0|0|0|100
 hScaleHScale==100
 hScaleTickStrokeWidth==0.4
