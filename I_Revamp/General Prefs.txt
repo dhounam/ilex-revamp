@@ -455,13 +455,13 @@ wedge10FillCMYK==85|0|30|20
 ;;
 ;; BLOBS, KEYS AND NUMBERBOXES *****************
 ;; Blobs
-blobFontName==EconSansCndMed
-blobHeaderFontSize==7.5
-blobHeaderFontLeading==9.5
+blobFontName==EconSansCndReg
+blobHeaderFontSize==7
+blobHeaderFontLeading==9
 ;; Force blob header box height
 blobHeaderBoxHeight==12
 blobFontSize==7
-blobFontCMYK==0|0|0|0
+blobFontCMYK==0|0|0|100
 blobColMargin==
 blobBarMargin==2
 blobHugCols==2
@@ -470,7 +470,7 @@ blobHugBars==
 ;; but height is now (REVAMP) overwritten by blobHeaderBoxHeight, above
 blobBoxMargin==3|2
 blobBoxFillFlag==True
-blobBoxFillCMYK==30|0|0|50
+blobBoxFillCMYK==24|0|0|16
 blobBoxStrokeFlag==False
 blobBoxStrokeCMYK==30|0|0|50
 blobBoxStrokeWidth==0

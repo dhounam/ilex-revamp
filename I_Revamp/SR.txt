@@ -17,6 +17,10 @@ absoluteScaleTop==False
 bb1FillCMYK==0|0|0|0
 ;; Red flash
 bb2OriginX==0
+;; Red line
+bb3Hidden==false
+bb3OriginX==0
+bb3Width==100%
 ;; String origins
 titleOriginX==0
 subtitleOriginXNoPanel==0
