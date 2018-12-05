@@ -1,4 +1,0 @@
-tempPath==/C/Program Files/Ilex/temp/
-cciPathPath==/C/Documents and Settings/donaldhounam/Desktop/Ilex out folder/CCI drop folder/
-adminPathPath==/M/InfoGraphics/Ilex master/Graph_admin/
-
