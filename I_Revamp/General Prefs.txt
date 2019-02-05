@@ -477,6 +477,7 @@ blobBoxStrokeWidth==0
 ;;
 ;; Keys
 keyFontName==EconSansCndLig
+keyFontNameLines==EconSansCndReg
 keyFontSize==7.5
 keyFontLeading==8
 keyFontFollowsSeries==False
@@ -505,8 +506,8 @@ numberBoxFontName==EconSansCndBol
 numberBoxFontSize== 7.5
 ;; TABLES *****************
 tHeadFontName==EconSansCndMed
-tHeadFontSize==7
-tHeadFontLeading==8
+tHeadFontSize==7.5
+tHeadFontLeading==9
 tHeadFontCMYK==0|0|0|100
 tHeadHScale==100
 tHeadSpaceAbove==15
@@ -523,7 +524,7 @@ tContentHScale==100
 tContentFontCMYK==0|0|0|100
 tRuleBWidth==0.5
 tRuleBDash==0|0
-tRuleBCMYK==15|0|0|25
+tRuleBCMYK==0|0|0|50
 tRuleBCap==2
 tRuleBelow==3.25
 tAlternateTints==False

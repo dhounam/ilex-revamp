@@ -1,7 +1,7 @@
 ;; Excel properties
 ;; These default properties must exist in every section lookup
 ;; (Excel refers to them)
-height==83.5
+height==82.5
 width==117
 columns==117|||||||
 subSizeOptions==False
