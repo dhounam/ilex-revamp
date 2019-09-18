@@ -385,7 +385,7 @@ function tColsObject(ptArray, tNo, allT, toLeft, subStyle)
 	this.lineMiter = c_defaultLineMiter;
 	this.miterLimit = c_defaultLineMiterLimit;
 	this.name = c_tColN + tNo;
-	this.note = this.name + ' overprint-off';
+	this.note = this.name;
 }
 // T_COLS OBJECT ends
 

@@ -362,7 +362,7 @@ function tBarsObject(ptArray, tNo, allT, subStyle)
 	this.lineMiter = c_defaultLineMiter;
 	this.miterLimit = c_defaultLineMiterLimit;
 	this.name = c_tBarN + tNo;
-	this.note = this.name + ' overprint-off';
+	this.note = this.name;
 }
 // T_BARS OBJECT ends
 

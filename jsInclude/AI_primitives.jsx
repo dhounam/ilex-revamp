@@ -541,7 +541,9 @@ function setPathAttributes(theObject,fFlag,fCols,sFlag,sWidth,sCols,sEnd,sMiter,
 		if (fFlag) {
 			myCol = makeColourObject(fCols);
 			theObject.fillColor = myCol;
-			theObject.fillOverprint = overPrint;
+			// theObject.fillOverprint = overPrint;
+			// Nope: apparently we ALWAYS turn overprinting off
+			theObject.fillOverprint = false;
 		}
 		// Stroke
 		theObject.stroked = sFlag;
