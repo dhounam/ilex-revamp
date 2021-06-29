@@ -684,6 +684,7 @@ function doSiteSpecificSave()
 // Called from siteSpecificSave to clear out drop folder
 function clearOutDropFolder(callback) {
 	var dFolder, fArray, f, myFile, now, diff, dStr;
+	/*
 	dFolder = new Folder(c_ilexSaveFolder);
 	fArray = dFolder.getFiles();
 	dStr = "I have deleted the following files, more than 10 days old, from your local dropfolder " + dFolder + ":"
@@ -702,6 +703,7 @@ function clearOutDropFolder(callback) {
 			}
 		}
 	}
+	*/
 	// Call saveIlexFile
 	callback();
 }
